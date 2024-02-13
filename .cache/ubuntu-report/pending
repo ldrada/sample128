@@ -1,0 +1,81 @@
+{
+  "Version": "22.04",
+  "OEM": {
+    "Vendor": "MSI",
+    "Product": "MS-7817",
+    "Family": "To be filled by O.E.M."
+  },
+  "BIOS": {
+    "Vendor": "American Megatrends Inc.",
+    "Version": "V1.9"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "041e"
+    }
+  ],
+  "RAM": 8,
+  "Disks": [
+    500.1
+  ],
+  "Partitions": [
+    87.4,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "480mmx270mm",
+      "Resolution": "1920x1080",
+      "Frequency": "59.96"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_PH",
+  "Timezone": "Asia/Manila",
+  "Install": {
+    "Media": "Ubuntu 22.04.3 LTS \"Jammy Jellyfish\" - Release amd64 (20230807.2)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "manual",
+    "DownloadUpdates": false,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "60": "console_setup",
+      "70": "prepare",
+      "80": "partman",
+      "84": "partman",
+      "85": "partman",
+      "89": "partman",
+      "108": "partman",
+      "112": "partman",
+      "114": "partman",
+      "118": "partman",
+      "134": "partman",
+      "137": "partman",
+      "149": "partman",
+      "153": "partman",
+      "165": "partman",
+      "169": "partman",
+      "179": "partman",
+      "183": "partman",
+      "185": "partman",
+      "186": "start_install",
+      "187": "timezone",
+      "189": "usersetup",
+      "199": "user_done",
+      "780": "done"
+    }
+  }
+}

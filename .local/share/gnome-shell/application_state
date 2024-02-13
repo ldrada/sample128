@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.eog.desktop" score="0" last-seen="1707293029"/>
+    <application id="org.gnome.Nautilus.desktop" score="0" last-seen="1707726906"/>
+    <application id="firefox_firefox.desktop" score="1548" last-seen="1707803157"/>
+    <application id="org.gnome.Terminal.desktop" score="294" last-seen="1707803157"/>
+    <application id="sol.desktop" score="264" last-seen="1707730028"/>
+    <application id="gnome-control-center.desktop" score="0" last-seen="1707714051"/>
+    <application id="apport-gtk.desktop" score="0" last-seen="1707802340"/>
+    <application id="update-manager.desktop" score="0" last-seen="1707802358"/>
+  </context>
+</application-state>
